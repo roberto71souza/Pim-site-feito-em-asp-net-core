@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContabilyContextWebSite", "ContabilyContextWebSite\ContabilyContextWebSite.csproj", "{AFD194F4-3219-4C7C-827B-C1D5970386A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFD194F4-3219-4C7C-827B-C1D5970386A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD194F4-3219-4C7C-827B-C1D5970386A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD194F4-3219-4C7C-827B-C1D5970386A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD194F4-3219-4C7C-827B-C1D5970386A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6936A245-DB2F-4B6B-87AF-44C3C86AA881}
+	EndGlobalSection
+EndGlobal

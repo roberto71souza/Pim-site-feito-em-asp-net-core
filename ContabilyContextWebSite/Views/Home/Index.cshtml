@@ -1,0 +1,256 @@
+﻿@model ContabilyContextWebSite.Models.Email
+@{
+    @if (TempData["Message"] != null)
+    {
+        <script type="text/javascript">
+            $(window).on('load', function () {
+                $('#myModal').modal('show');
+            });
+        </script>
+
+        <style>
+            #camposinvalidos {
+                display: none;
+            }
+        </style>
+    }
+
+    @if (TempData["CampoInvalido"] != null)
+    {
+        <script type="text/javascript">
+            $(window).on('load', function () {
+                $('#myModal').modal('show');
+            });
+        </script>
+        <style>
+            #camposvalidos {
+                display: none;
+            }
+
+            #camposinvalidos {
+                display: block;
+            }
+        </style>
+    }
+
+}
+<!-- banner -->
+<div class="slider-img one-img text-center">
+    <div class="container" id="container">
+        <div class="slider-info">
+            <h4>
+                CONTEX
+                <br>
+                52 ANOS PRESTANDO SERVICOS DE QUALIDADE NA REGIAO
+            </h4>
+
+            <div class="slider-banner">
+                <br>
+            </div>
+            <h5>
+                Agora com uma nova diretoria, a contex esta renovando suas ideias
+                e estrura para melhor atendimento em sua regiao e visando expandir seu negocio.
+            </h5>
+        </div>
+    </div>
+</div>
+<!--About -->
+<section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about">
+    <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+        <div class="about-w3layouts-info">
+            <!-- <div class="abt-img-gride">
+            </div> -->
+            <h3 class="title text-center mt-lg-5 mt-md-4 mt-sm-4 mt-3 mb-2"> NOSSA HISTORIA</h3>
+            <div class="line-w3ls-title text-center mb-md-4 mb-sm-3 mb-3"></div>
+            <div class="abut-wls-text">
+                <p>
+                    &nbsp &nbsp &nbsp &nbsp &nbsp A CONTEX foi fundada em 13 de julho de 1968, por uma jovem família formada
+                    em contabilidade na USP,
+
+                    no começo Jose Carlos então já experiente e também formado estimulou seus filhos na época
+
+                    que já haviam recém formados em contabilidade a abrir uma pequena empresa e ambos gerenciarem,
+
+                    a CONTEX ao longo destes anos, vem sendo uma empresa pequena que possuía como colaboradores familiares
+                    próximos,
+
+                    sempre prestando serviços inovadores e modernos.
+
+                    Seguindo esta tradição neste novo mundo tecnológico, uma nova equipe da CONTEX está renovando sua
+                    estrutura física
+
+                    e tecnológica para uma estrutura mais moderna, e com isso a CONTEX terá um contato melhor com seus
+                    clientes,
+
+                    visando expandir suas soluções contábeis para além da sua região.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--//About-->
+<!--service-->
+<section class="service py-lg-4 py-md-3 py-sm-3 py-3" id="service">
+    <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+        <div class="title-sub text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">
+            <h3 class="title mb-2">Servicos</h3>
+            <div class="line-w3ls-title text-center mb-md-4 mb-sm-3 mb-3"></div>
+            <p>
+                Atualmente a CONTEX ja trabalha com alguns nichos diferenciados na regiao, <br> consulte abaixo os nichos
+                em
+                que somos especializados.
+            </p>
+        </div>
+        <div class="row pt-lg-5 pt-md-5 pt-sm-4 pt-3">
+            <div class="col-lg-3 col-md-6 col-sm-6 ser-icon text-center">
+                <div class="service-position">
+                    <div class="icon-wthree-top">
+                        <span class="fa fa-bookmark-o" aria-hidden="true"></span>
+                    </div>
+                    <div class="ser-text-wthree">
+                        <h4>
+                            INDÚSTRIAS METALÚRGICAS
+                        </h4>
+                        <p class="mt-3"> - departamento pessoal </p>
+                        <p class="mt-3"> - consultoria </p>
+                        <p class="mt-3"> - solucao completa </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 ser-icon text-center">
+                <div class="service-position">
+                    <div class="icon-wthree-top">
+                        <span class="fa fa-bookmark-o" aria-hidden="true"></span>
+                    </div>
+                    <div class="ser-text-wthree">
+                        <h4>
+                            PROFISSIONAIS DE INFORMÁTICA
+                        </h4>
+                        <p class="mt-3"> - acessoria tributaria fiscal </p>
+                        <p class="mt-3"> - abertura de empresas </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 ser-icon text-center">
+                <div class="service-position">
+                    <div class="icon-wthree-top">
+                        <span class="fa fa-bookmark-o" aria-hidden="true"></span>
+                    </div>
+                    <div class="ser-text-wthree">
+                        <h4>
+                            PROFISSIONAIS DE JOGOS
+                        </h4>
+                        <p class="mt-3"> - gestao de pessoas </p>
+                        <p class="mt-3"> - consultoria </p>
+                        <p class="mt-3"> - -acessoria tributaria fiscal </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--map-->
+<!--//map-->
+<!--Footer-->
+<footer class="py-lg-4 py-md-3 py-sm-3 py-3" id="contact">
+    <div class="container linebottom py-lg-5 py-md-5 py-sm-4 py-3">
+        <div class="row linerows">
+            <div class="col-lg-5 footer-left-grid">
+                <div class="mb-lg-4 mb-3 footer-w3layouts-head">
+                    <h2 style="color: #ffff;">Entre em contato</h2>
+                </div>
+                <div class="footer_grid_left">
+                    <ul>
+                        <li>
+                            <span class="fa fa-map" aria-hidden="true"> </span>
+                            <p>
+                                Avenida Paulista , 967 – Bela vista.
+                            </p>
+                            <section class="map">
+                                <div class="address_mail_footer_grids">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0759557112146!2d-46.654339584475714!3d-23.56571536763947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c79a182c8f%3A0x992dc4622c03f5cf!2sAv.%20Paulista%2C%20967%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001311-100!5e0!3m2!1spt-BR!2sbr!4v1590176950924!5m2!1spt-BR!2sbr"></iframe>
+                                </div>
+                            </section>
+                        </li>
+                        <li>
+                            <span class="fa fa-envelope-o" aria-hidden="true"> </span>
+                            <p>
+                                <a>E-mail: escrisacompany@gmail.com </a>
+                            </p>
+                        </li>
+                        <li>
+                            <span class="fa fa-phone" aria-hidden="true"> </span>
+                            <p>Fone: (11) 3636-2121 / WhatsApp - (11)98547-8956</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-7 contact-form pb-lg-3 pb-2">
+                <form asp-action="Index" method="post">
+                    <div class="row ile-wls-contact-mid">
+                        <div class="col-lg-6 form-group contact-forms">
+                            <input id="nome" type="text" asp-for="Nome" class="form-control" placeholder="*Digite seu nome" required="">
+                        </div>
+
+                    </div>
+                    <div class="row ile-wls-contact-mid">
+                        <div class="col-lg-6 form-group contact-forms">
+                            <input id="email" type="email" asp-for="_Email" class="form-control" placeholder="*Digite seu email" required="">
+                        </div>
+                    </div>
+                    <div class="row ile-wls-contact-mid">
+                        <div class="col-lg-10 form-group contact-forms">
+                            <input id="telefone" type="text" asp-for="Telefone" class="form-control" placeholder="Digite telefone para contato" title="Opcional">
+                        </div>
+                    </div>
+                    <div class="row ile-wls-contact-mid">
+                        <div class="col-lg-10 form-group contact-forms">
+                            <textarea id="mensagem" class="form-control" asp-for="Mensagem" placeholder="*Digite a Mensagem" required=""></textarea>
+                        </div>
+                    </div>
+
+                    <div class=" click-subscribe">
+                        <button type="submit" class="btn sent-butnn btn-lg">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="#container" class="move-top txt-center mt-3"></a>
+    </div>
+    <hr size="5" width=100% color="white">
+    <div class="bottem-ile-footer text-center pt-lg-4 pt-3">
+        <p>
+            © 2019 Contex. All Rights Reserved , 2020
+        </p>
+    </div>
+</footer>
+<!--//Footer-->
+<!-- Modal -->
+<style>
+    .modal-content {
+        background-color: rgb(79, 70, 131);
+        color:#ffffff;
+    }
+</style>
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" style="color:aqua">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>@(TempData["Message"])</p>
+            </div>
+            <div id="camposvalidos" class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" onclick="LimparCampos()">Ok</button>
+            </div>
+            <div id="camposinvalidos" class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -20,7 +20,6 @@ C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\bin\Debug
 C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\bin\Debug\netcoreapp3.1\ContabilyContextWebSite.pdb
 C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\bin\Debug\netcoreapp3.1\ContabilyContextWebSite.Views.dll
 C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\bin\Debug\netcoreapp3.1\ContabilyContextWebSite.Views.pdb
-C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs

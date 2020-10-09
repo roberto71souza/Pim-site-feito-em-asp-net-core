@@ -167,8 +167,8 @@ float: left;
 nav ul li a {
 color: #fff;
 text-transform: capitalize;
-font-weight: 1000;
-font-size: 20px;
+font-weight: 550;
+font-size: 23px;
 letter-spacing: 1px;
 background:transparent;
 text-transform:capitalize;
@@ -609,6 +609,10 @@ a.move-top {
 @media(max-width:1600px){
 }
 @media(max-width:1440px){
+    .slider-info h4 {
+        padding: 40px;
+        font-size: 3em;
+    }
     .row{
         padding-left: 12%;
     }
@@ -678,6 +682,10 @@ padding: .8em .7em;
 }
 }
 @media(max-width:1366px){
+    .slider-info h4 {
+        padding: 55px;
+        font-size: 3em;
+    }
     .row{
         padding-left: 12%;
     }
@@ -708,6 +716,10 @@ width: 47%;
 }
 }
 @media(max-width:1280px){
+    .slider-info h4 {
+        padding: 50px;
+        font-size: 3em;
+    }
     .row{
         padding-left: 12%;
     }
@@ -757,6 +769,10 @@ height: 340px;
 }
 }
 @media(max-width:1080px){
+    .slider-info h4 {
+        padding: 45px;
+        font-size: 3em;
+    }
     .row{
         padding-left: 12%;
     }
@@ -803,6 +819,10 @@ font-size: 14px;
 }
 }
 @media(max-width:1050px){
+    .slider-info h4 {
+        padding: 45px;
+        font-size: 3em;
+    }
     .row{
         padding-left: 12%;
     }
@@ -836,10 +856,12 @@ min-height: 600px;
 font-size: 36px;
 }
 .slider-info h4 {
+padding:40px;
 font-size: 3em;
 }
 .slider-info h5 {
 font-size: 18px;
+padding-top:0px;
 padding: 0px 0px 15px;
 }	
 .title {
@@ -861,7 +883,11 @@ height: 16em;
     }
     .col-lg-3{
     margin: 30px;
-    }	
+    }
+    .slider-info h4 {
+        padding: 35px;
+        font-size: 3em;
+    }
 .icons {
 text-align: center;
 }
@@ -918,6 +944,10 @@ height: 8em;
 .team-grid-list:nth-child(1),.team-grid-list:nth-child(2){margin-bottom:25px;}
 }
 @media(max-width:900px){
+    .slider-info h4 {
+        padding: 30px;
+        font-size: 3em;
+    }
 .price-gride-icon span {
 font-size: 29px;
 }

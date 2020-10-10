@@ -13,6 +13,7 @@ namespace ContabilyContextWebSite.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Index(Email email)
         {
             try

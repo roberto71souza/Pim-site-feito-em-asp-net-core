@@ -28,12 +28,12 @@ namespace ContabilyContextWebSite.Models
                     mm.Subject = subject;
                     mm.Body = mensagem;
                     mm.IsBodyHtml = false;
-                //   using (SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587))
-                //     {
-                //         smtp.Credentials = new System.Net.NetworkCredential("contabilycontext@gmail.com", "context1968");
-                //         smtp.EnableSsl = true;
-                //         await smtp.SendMailAsync(mm);
-                //     }
+                    using (SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587))
+                    {
+                        smtp.Credentials = new System.Net.NetworkCredential("contabilycontext@gmail.com", "context1968");
+                        smtp.EnableSsl = true;
+                        await smtp.SendMailAsync(mm);
+                    }
                 }
                 return true;
             }

@@ -1,7 +1,5 @@
 C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\ContabilyContextWebSite.AssemblyInfoInputs.cache
 C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\ContabilyContextWebSite.AssemblyInfo.cs
-C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\ContabilyContextWebSite.csproj.CoreCompileInputs.cache
-C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\ContabilyContextWebSite.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\ContabilyContextWebSite.RazorAssemblyInfo.cache
 C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\ContabilyContextWebSite.RazorAssemblyInfo.cs
 C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\ContabilyContextWebSite.TagHelpers.input.cache
@@ -30,6 +28,7 @@ C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug
 C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\staticwebassets\ContabilyContextWebSite.StaticWebAssets.xml
 C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\ContabilyContextWebSite.genruntimeconfig.cache
 C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\ContabilyContextWebSite.csproj.CopyComplete
-C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\ContabilyContextWebSite.csprojAssemblyReference.cache
 C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\ContabilyContextWebSite.csproj.CoreCompileInputs.cache
+C:\Users\rober\Desktop\ContabilyContextWebSite\ContabilyContextWebSite\obj\Debug\netcoreapp3.1\ContabilyContextWebSite.MvcApplicationPartsAssemblyInfo.cache

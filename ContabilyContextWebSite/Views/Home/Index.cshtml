@@ -25,6 +25,7 @@
             #camposvalidos {
                 display: none;
             }
+
             #camposinvalidos {
                 display: block;
             }
@@ -64,7 +65,7 @@
                     &nbsp &nbsp &nbsp &nbsp &nbsp A CONTABILY CONTEXT foi fundada em 13 de julho de 1968, por uma jovem família formada
                     em contabilidade na USP,
 
-                    no começo Jose Carlos então já experiente e também formado estimulou seus filhos na época
+                    no começo Jose Carlos então já experiente, estimulou seus filhos na época
 
                     que já haviam recém formados em contabilidade a abrir uma pequena empresa e ambos gerenciarem,
 
@@ -146,8 +147,6 @@
         </div>
     </div>
 </section>
-<!--map-->
-<!--//map-->
 <!--Footer-->
 <footer class="py-lg-4 py-md-3 py-sm-3 py-3" id="contact">
     <div class="container linebottom py-lg-5 py-md-5 py-sm-4 py-3">
@@ -183,7 +182,7 @@
                 </div>
             </div>
             <div class="col-lg-7 contact-form pb-lg-3 pb-2">
-                <form asp-action="Index" method="post">
+                <form asp-action="Index" asp-anti-forgery="true" method="post">
                     <div class="row ile-wls-contact-mid">
                         <div class="col-lg-6 form-group contact-forms">
                             <input id="nome" type="text" asp-for="Nome" class="form-control" placeholder="*Digite seu nome" required="">
@@ -197,7 +196,7 @@
                     </div>
                     <div class="row ile-wls-contact-mid">
                         <div class="col-lg-10 form-group contact-forms">
-                            <input id="telefone" type="text" asp-for="Telefone" class="form-control" placeholder="Digite telefone para contato" title="Opcional">
+                            <input id="telefone" type="text" asp-for="Telefone" class="form-control" placeholder="Digite telefone para contato" data-mask="(00) 00000-0000" title="Opcional">
                         </div>
                     </div>
                     <div class="row ile-wls-contact-mid">
@@ -228,7 +227,7 @@
 <style>
     .modal-content {
         background-color: rgb(79, 70, 131);
-        color:#ffffff;
+        color: #ffffff;
     }
 </style>
 <div class="modal fade" id="myModal" role="dialog">
@@ -251,3 +250,4 @@
 
     </div>
 </div>
+<!--//Modal-->
